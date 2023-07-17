@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <title>Taschenrechner</title>
     <script src="main.js"></script>
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
     <h1>Taschenrechner</h1>
 
     <input type="text" id="number1">
+    <input type="text" id="operator">
     <input type="text" id="number2">
-
+    
     <button onclick="calculate()">Berechne</button>
 
     <p id="result"></p>
